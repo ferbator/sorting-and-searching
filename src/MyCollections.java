@@ -1,7 +1,7 @@
 import java.util.Comparator;
 import java.util.List;
 
-public class Collections {
+public class MyCollections {
     public static <T extends Comparable<? super T>> int binarySearch(List<? extends T> list, T key) {
         int low = 0;
         int high = list.size() - 1;

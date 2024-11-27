@@ -1,6 +1,6 @@
 import java.util.Comparator;
 
-public class Arrays {
+public class MyArrays {
     public static int binarySearch(byte[] a, byte key) {
         return binarySearch(a, 0, a.length, key);
     }
